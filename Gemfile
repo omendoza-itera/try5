@@ -34,3 +34,6 @@ group :test do
   # Pretty printed test output
   gem 'turn', '~> 0.8.3', :require => false
 end
+group :production do
+  gem 'therubyracer', '~> 0.9.3.beta1'
+end
